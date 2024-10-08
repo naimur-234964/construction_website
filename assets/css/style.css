@@ -1,0 +1,31 @@
+:root {
+    --light-color: #fff;
+    --dark-color: #000;
+    --primary-color: #f0542d;
+}
+
+#top-nav {
+    .social-top {
+        a {
+            color: var(--light-color);
+            margin: 0 8px;
+            padding: 0;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    .quote {
+        li {
+            background-color: var(--primary-color);
+        }
+
+        a {
+            color: var(--light-color);
+            text-decoration: none;
+        }
+    }
+}
