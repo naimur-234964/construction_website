@@ -39,3 +39,14 @@
         border: 1px solid var(--primary-color);
     }
 }
+
+/* navbar section start */
+#navbar{
+    background-color: var(--primary-color);
+
+    .nav-link{
+        color: var(--light-color);
+        font-weight: 400;
+    }
+}
+/* navbar section end */
