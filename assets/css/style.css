@@ -32,3 +32,10 @@
         }
     }
 }
+
+#nav-top{
+    i{
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+}
